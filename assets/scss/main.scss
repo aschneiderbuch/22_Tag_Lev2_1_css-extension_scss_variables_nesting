@@ -30,6 +30,7 @@ body {
 @include hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe);
 }
 
+
 header{
     background-color: red;
     margin-left: 2vw;
@@ -37,11 +38,14 @@ header{
     font:{
         size:2rem;          //* Nesting mit font-size
     }
+    a{
+        text-decoration: none;
+    }
 }
 
 main{
     background-color: green;
-    margin: auto auto;
+    margin:  auto;
 section {
     display: flex;
     justify-content: center;

@@ -21,10 +21,13 @@ header {
   margin-top: 2vh;
   font-size: 2rem;
 }
+header a {
+  text-decoration: none;
+}
 
 main {
   background-color: green;
-  margin: auto auto;
+  margin: auto;
 }
 main section {
   display: flex;
