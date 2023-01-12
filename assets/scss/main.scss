@@ -29,3 +29,12 @@ html{
 body {
 @include hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe);
 }
+
+header{
+    background-color: red;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font:{
+        size:2rem;          //* Nesting mit font-size
+    }
+}

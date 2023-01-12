@@ -15,4 +15,11 @@ body {
   background-size: 1440px 900px;
 }
 
+header {
+  background-color: red;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
