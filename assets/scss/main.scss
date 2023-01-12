@@ -38,3 +38,14 @@ header{
         size:2rem;          //* Nesting mit font-size
     }
 }
+
+main{
+    background-color: green;
+    margin: auto auto;
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}

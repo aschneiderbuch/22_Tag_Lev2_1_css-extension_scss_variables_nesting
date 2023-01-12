@@ -22,4 +22,15 @@ header {
   font-size: 2rem;
 }
 
+main {
+  background-color: green;
+  margin: auto auto;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
