@@ -70,11 +70,26 @@ main {
         text-align: center; //* macht es mittig von links rechts
         line-height: 100px; //* macht es mittig von oben nten
         font-weight: bold;
-        margin-left: 60vw; //* schiebt es ganz an den rechten Rand vom M
+        z-index:+1; // * bringt den Kreis über das M
+
+        margin: {
+            left: 60vw; //* schiebt es ganz an den rechten Rand vom M
+            bottom: -6vh; //* bring den Kreis dirkt ans M
+        }
+
 
         font: {
             size: 3rem;
 
+        }
+    }
+
+    h1 {
+        color: white;
+        z-index: 0;
+
+        font: {
+            size: 12rem;
         }
     }
 }

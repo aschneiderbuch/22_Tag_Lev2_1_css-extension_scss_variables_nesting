@@ -48,8 +48,15 @@ main p {
   text-align: center;
   line-height: 100px;
   font-weight: bold;
+  z-index: 1;
   margin-left: 60vw;
+  margin-bottom: -6vh;
   font-size: 3rem;
+}
+main h1 {
+  color: white;
+  z-index: 0;
+  font-size: 12rem;
 }
 
 /*# sourceMappingURL=style.css.map */
