@@ -1,6 +1,15 @@
+@mixin hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe){
 
-
-
+    background-image: linear-gradient($grad,$blau 12.50%, $gelb 12.50%, $gelb 25%, $rot 25%, $rot 37.50%, $lila 37.50%, $lila 50%, $blau 50%, $blau 62.50%, $gelb 62.50%, $gelb 75%, $rot 75%, $rot 87.50%, $lila 87.50%, $lila 100%);
+    background-size: $breite $hoehe;
+}
+$grad: 57deg;
+$blau: #5bf2fd;
+$gelb: #fbc736;
+$rot: #fd5f5e;
+$lila: #bb4dfa;
+$breite: 1440px;
+$hoehe: 900px;
 
 
 
@@ -18,8 +27,5 @@ html{
 
 
 body {
-
-background-image: linear-gradient(57deg, blau 12.50%, gelb 12.50%, gelb 25%, rot 25%, rot 37.50%, lila 37.50%, lila 50%, blau 50%, blau 62.50%, gelb 62.50%, gelb 75%, rot 75%, rot 87.50%, lila 87.50%, lila 100%);
-background-size: 286.17px 440.66px;
-
+@include hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe);
 }
