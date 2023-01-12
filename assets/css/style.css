@@ -27,13 +27,29 @@ header a {
 
 main {
   background-color: green;
-  margin: auto;
+  margin: auto auto;
 }
 main section {
+  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 70vh;
+  width: 60vw;
+  margin: auto auto;
+}
+main p {
+  color: white;
+  background-color: #fbc736;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  margin-left: 60vw;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
