@@ -63,4 +63,19 @@ html, body {
   margin-top: -5vh;
 }
 
+/* ***************** footer *************** */
+/* ***************** footer *************** */
+/* ***************** footer *************** */
+footer {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  width: 10vw;
+  margin: 0 5vw auto auto;
+}
+footer a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
