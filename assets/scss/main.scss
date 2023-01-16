@@ -1,3 +1,5 @@
+/* **************** Hintergrund Farbstreifen Start**************** */
+
 @mixin hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe) {
 
     background-image: linear-gradient($grad, $blau 12.50%, $gelb 12.50%, $gelb 25%, $rot 25%, $rot 37.50%, $lila 37.50%, $lila 50%, $blau 50%, $blau 62.50%, $gelb 62.50%, $gelb 75%, $rot 75%, $rot 87.50%, $lila 87.50%, $lila 100%);
@@ -9,87 +11,42 @@ $blau: #5bf2fd;
 $gelb: #fbc736;
 $rot: #fd5f5e;
 $lila: #bb4dfa;
-$breite: 1440px;
-$hoehe: 900px;
+$breite: 100vw;
+$hoehe: 100vh;
+
+/* *************** Hintergrund Farbstreifen Ende *****************/
 
 
-
-* {
-    margin: 0;
-    padding: 0;
+*{
+     margin: 0;
+     padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html, body {
     font-size: 16px;
     max-width: 1440px;
     scroll-behavior: smooth;
-}
+    overflow: hidden;
 
-
-body {
     @include hinterGrundGestreift ($grad, $blau, $gelb, $rot, $lila, $breite, $hoehe);
+    background-repeat: no-repeat;
 }
 
-
-header {
+/* ***************** header *************** */
+/* ***************** header *************** */
+/* ***************** header *************** */
+.classVonAHeader {
     background-color: red;
-    margin-left: 2vw;
-    margin-top: 2vh;
+    padding-left: 5vw;
+    margin-top: 5vh;
 
-    font: {
-        size: 2rem; //* Nesting mit font-size
-    }
-
-    a {
-        text-decoration: none;
-    }
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    
 }
 
-main {
-    background-color: green;
-    margin: auto auto;
-
-    section {
-        background-color: yellow;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 70vh;
-        width: 60vw;
-        margin: auto auto; //* richtet alles Mittig aus, da es durch width 60 links hängt
-    }
-
-    p {
-        color: white;
-        background-color: $gelb;
-        border-radius: 100%; //* macht Kreis rund
-        width: 100px;
-        height: 100px;
-        text-align: center; //* macht es mittig von links rechts
-        line-height: 100px; //* macht es mittig von oben nten
-        font-weight: bold;
-        z-index:+1; // * bringt den Kreis über das M
-
-        margin: {
-            left: 60vw; //* schiebt es ganz an den rechten Rand vom M
-            bottom: -6vh; //* bring den Kreis dirkt ans M
-        }
-
-
-        font: {
-            size: 3rem;
-
-        }
-    }
-
-    h1 {
-        color: white;
-        z-index: 0;
-
-        font: {
-            size: 12rem;
-        }
-    }
-}
+/* ***************** main *************** */
+/* ***************** main *************** */
+/* ***************** main *************** */
