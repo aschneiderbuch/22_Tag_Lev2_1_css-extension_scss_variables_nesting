@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* **************** Hintergrund Farbstreifen Start**************** */
 /* *************** Hintergrund Farbstreifen Ende *****************/
 * {
@@ -31,5 +32,35 @@ html, body {
 /* ***************** main *************** */
 /* ***************** main *************** */
 /* ***************** main *************** */
+.text {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 85vh;
+}
+.text p {
+  background-color: #fbc736;
+  color: white;
+  font-size: 8rem;
+  width: 10vw;
+  border-radius: 50vw;
+  text-align: center;
+  margin: 0 5vw -10vh auto; /* * somit rechts und weiter runter, so das er knapp über M ist */
+  z-index: 1; /* * somit über M */
+}
+.text h1 {
+  background-color: red;
+  font-size: 15rem;
+  font-weight: bold;
+  color: white;
+}
+.text h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: -5vh;
+}
 
 /*# sourceMappingURL=style.css.map */
